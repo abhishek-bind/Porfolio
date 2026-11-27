@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Bind — Web Developer in Varanasi</title>
+    <meta
+      name="description"
+      content="I'm Abhishek Bind, a web developer and MCA student in Varanasi. Explore selected projects built with HTML, CSS, JavaScript, PHP and MySQL."
+    />
+    <meta name="theme-color" content="#111312" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#home" class="logo">Abhishek<span>.</span></a>
+        <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a
+            href="https://github.com/abhishek-bind"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-outline-sm"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="tagline">WEB DEVELOPER <span>·</span> VARANASI, INDIA</p>
+          <h1>
+            <span id="typedPrefix">Hi, I’m </span
+            ><span class="highlight" id="typedName" aria-label="Abhishek Bind."
+              >Abhishek Bind.</span
+            >
+          </h1>
+          <h2>Front-end developer &amp; MCA student</h2>
+          <p class="hero-desc">
+            I enjoy turning ideas into clear, useful websites. I’m currently
+            pursuing my MCA at Kashi Institute of Technology and building
+            projects with HTML, CSS, JavaScript, PHP and MySQL.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary"
+              >Explore my work <i class="fas fa-arrow-right"></i
+            ></a>
+            <a href="#contact" class="btn-secondary">Get in touch</a>
+          </div>
+          <div class="hero-socials">
+            <a
+              href="https://github.com/abhishek-bind"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/abhishek-bind"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="profile-stage" aria-label="Portrait of Abhishek Bind">
+          <div class="profile-orbit orbit-one"></div>
+          <div class="profile-card" id="profileCard">
+            <div class="profile-glow"></div>
+            <img src="profile.jpg" alt="Abhishek Bind" />
+          </div>
+          <div class="profile-note">
+            <span class="profile-note-mark">AB</span>
+            <span
+              ><strong>Abhishek Bind</strong
+              ><small>Developer · Varanasi</small></span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">A little about me</span>
+          <h2>Curious by nature, developer by choice.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>A bit about me</h3>
+            <p>
+              I’m from Varanasi and currently studying for my MCA. I like
+              working through the details that make a website feel easy to use,
+              from a layout that works on a phone to the small interactions that
+              make a page feel finished.
+            </p>
+            <div class="highlights-row">
+              <div class="mini-stat">
+                <i class="fas fa-code"></i>
+                <span>Front-end</span>
+              </div>
+              <div class="mini-stat">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Responsive design</span>
+              </div>
+              <div class="mini-stat">
+                <i class="fas fa-rocket"></i>
+                <span>Always learning</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <h3>Education</h3>
+            <div class="timeline-item">
+              <span class="year">Pursuing</span>
+              <h4>Master of Computer Applications (MCA)</h4>
+              <p>Kashi Institute of Technology (KIT), Varanasi</p>
+            </div>
+            <div class="timeline-item">
+              <span class="year">Completed (2025)</span>
+              <h4>Bachelor of Computer Applications (BCA)</h4>
+              <p>Microtek College of Management & Technology, Varanasi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">The toolkit</span>
+          <h2>Tools I work with</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fab fa-html5" style="color: #e34f26"></i
+            ><span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt" style="color: #1572b6"></i
+            ><span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js" style="color: #f7df1e"></i
+            ><span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-bootstrap" style="color: #7952b3"></i
+            ><span>Bootstrap</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-php" style="color: #777bb4"></i><span>PHP</span>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-database" style="color: #00758f"></i
+            ><span>MySQL / DBMS</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-git-alt" style="color: #f05032"></i
+            ><span>Git & GitHub</span>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-robot" style="color: #3b82f6"></i
+            ><span>AI-assisted tools</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Selected work</span>
+          <h2>A few things I’ve built.</h2>
+          <p class="section-intro">
+            Small projects, real practice, and plenty learned along the way.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="fas fa-camera-retro project-icon"></i>
+              <div class="project-links">
+                <a
+                  href="https://github.com/abhishek-bind/Pritam-Studio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Source Code"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://abhishek-bind.github.io/Pritam-Studio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Live Demo"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Pritam Studio Website</h3>
+            <p>
+              A website for a Varanasi photography studio, with service packages
+              and a straightforward way for clients to get in touch.
+            </p>
+            <div class="tech-tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span
+              ><span>Local SEO</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="fas fa-quote-left project-icon"></i>
+              <div class="project-links">
+                <a
+                  href="https://github.com/abhishek-bind/Quote-Generator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Source Code"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://abhishek-bind.github.io/Quote-Generator/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Live Demo"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Bilingual Quote Generator</h3>
+            <p>
+              A bilingual place to browse quotes, listen with text-to-speech,
+              save favourites, and share the ones that resonate.
+            </p>
+            <div class="tech-tags">
+              <span>HTML5</span><span>CSS3</span><span>Vanilla JS</span
+              ><span>Web Speech API</span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-top">
+              <i class="fas fa-lock project-icon"></i>
+              <div class="project-links">
+                <a
+                  href="https://github.com/abhishek-bind/Login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Source Code"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://abhishek-bind.github.io/Login/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Live Demo"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Login & Registration System</h3>
+            <p>
+              A responsive sign-in and registration project exploring how a PHP
+              interface connects to a MySQL database.
+            </p>
+            <div class="tech-tags">
+              <span>HTML5</span><span>CSS3</span><span>PHP</span
+              ><span>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-container">
+        <div class="section-header">
+          <span class="section-tag">Say hello</span>
+          <h2>Have something in mind?</h2>
+          <p>
+            I’m open to junior opportunities, internships, and interesting
+            collaborations. Send a note using the form, or email me at
+            <a class="contact-email" href="mailto:abhishekbind231501@gmail.com"
+              >abhishekbind231501@gmail.com</a
+            >.
+          </p>
+        </div>
+        <form
+          class="contact-form"
+          id="contactForm"
+          action="https://formspree.io/f/xwlozwrq"
+          method="POST"
+        >
+          <div class="form-row">
+            <label>
+              Your name
+              <input
+                type="text"
+                name="name"
+                autocomplete="name"
+                placeholder="Name"
+                required
+              />
+            </label>
+            <label>
+              Your email
+              <input
+                type="email"
+                name="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+              />
+            </label>
+          </div>
+          <label>
+            Subject
+            <input
+              type="text"
+              name="subject"
+              placeholder="What would you like to discuss?"
+              required
+            />
+          </label>
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+          </label>
+          <button type="submit" class="btn-primary">
+            Send message <i class="fas fa-paper-plane"></i>
+          </button>
+          <p
+            id="formStatus"
+            class="form-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+        <div class="contact-actions">
+          <a
+            class="btn-primary"
+            href="https://www.linkedin.com/in/abhishek-bind"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Connect on LinkedIn
+            <i class="fas fa-arrow-up-right-from-square"></i>
+          </a>
+          <a
+            class="btn-secondary"
+            href="https://github.com/abhishek-bind"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Browse GitHub <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>
+          &copy; <span id="year"></span> Abhishek Bind. Designed and built with
+          care.
+        </p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/abhishek-bind"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/abhishek-bind"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
